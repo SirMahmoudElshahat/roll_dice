@@ -43,7 +43,7 @@ class _MyAppState extends State<MyApp> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               isLoading 
-                ? CircularProgressIndicator() // مؤشر التحميل
+                ? CircularProgressIndicator() 
                 : Image.asset(
                     "assets/images/dice-$numOfDice.png",
                     width: 200,
